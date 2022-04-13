@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="ExtentReports.ExtentReport"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="C:/Users/adityakumar72/IdeaProjects/Rest_Assured_assignment_RE">
+        <classes>
+            <class name="Rest_test">
+            </class>
+            <class name="CreateUser">
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -44,7 +44,6 @@ public class Rest_test {
     @Test
     public void VerifyEmail() {
         Response response = given().
-                when().
                 get("https://gorest.co.in/public/v1/users").
                 then().extract().response();
         JSONObject obj = new JSONObject(response.asString());
